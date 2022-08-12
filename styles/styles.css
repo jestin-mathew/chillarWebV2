@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+html body{
+    margin: 0px;
+}
+.header{
+    background-color: #1E3667;
+    min-height: 760px;
+}
+    .navbar-main{
+        display: none;
+        position: sticky;
+        top: 0px;
+        left: 0px;
+        background-color: rgb(255, 255, 255);
+    }
+    .nav-item {
+        min-width:148px;
+    }
+        .nav-item > a::before:hover{
+            position: absolute;
+            display: block;
+            content: '';
+            margin-left: -20px;
+            padding-left: 100px;
+            height: 30px;
+            width: 40px;
+
+        
+        }
+        .nav-item > a {
+            color:#1E3667 !important;
+        }
+        .nav-item > a:hover {
+            color:#002d86 !important;
+            font-weight: 500;
+        }
+    .nav-right{
+        padding-left: 45px;
+    }
+    .nav-left{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+        .nav-contact{
+            width: 150px;
+            height: 50px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 50px;
+            border-color: #1E3667;
+            color:#1E3667;
+            border-style: solid;
+        }
+        .nav-contact:focus{
+        outline: none;
+        }
+    .header-content_top{
+    padding-top: 30px;
+    }
+        .nav2-right{
+            display:flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            padding-right: 20px;
+        }
+        .nav2-contact{
+            margin-right: 65px;
+            background-color: #1E3667 !important;
+            color: #ffffff;
+            border-color: #ffffff;
+
+            border-style: solid;
+        }
+    .header-content_caption{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .header-content_text{
+        background: #1E3667;
+        padding-top: 10% ;
+        color: #ffffff;
+        font-family: 'Poppins', sans-serif;
+        font-size:80px;
+    }
+    .header-content_text{
+        font-family: 'Poppins', sans-serif;
+        font-size: 60px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .header-content_button{
+            border-radius: 5px;
+            font-size: 25px;
+            background-color: #6AC9C8;
+            color: #ffffff;
+            font-family: 'Poppins', sans-serif;
+            width: 200px;
+            height: 60px;
+            border: none;
+        }
+    .header-content_button:focus {outline:0;}
+    .header-content_button:hover{
+            border-radius: 5px;
+            font-size: 25px;
+            background-color: #ffffff;
+            color: #1E3667;
+            font-family: 'Poppins', sans-serif;
+            width: 200px;
+            height: 60px;
+            border: none;
+        }
+
+    .header-slider{
+            background-color: #1E3667;
+            height: 250px;
+            display: flex;
+            flex-direction: row-reverse;
+            margin-top: 40px;
+            margin-left: 0px;
+            margin-right: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    .header-slider_content{
+        height:250px;
+        width: 0px;
+        background-color: crimson;
+        overflow: hidden;
+        -webkit-transition: all .8s ease;
+        -moz-transition: all .8s ease;
+        -ms-transition: all .8s ease;
+        -o-transition: all .8s ease;
+        transition: all .8s ease;
+        color: white;
+        overflow: hidden;  
+        display: flex;
+    }
+
+    .header-slider:hover > .header-slider_content  {
+        width: 810px;
+        display: flex;
+    }
+    .header-slide{
+        background-color: aquamarine;
+        border-right: #abababac .5px solid;
+    }
+    .home{
+
+    }
+    .home-header{
+        padding-top: 10% ;
+        color: #1E3667;
+        font-family: 'Poppins', sans-serif;
+        font-size: 60px;
+        font-weight: 600;
+        text-align: center;
+    }
